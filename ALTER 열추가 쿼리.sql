@@ -1,0 +1,13 @@
+USE tabledb2;
+ALTER TABLE lol
+ADD email VARCHAR(30) -- 열추가
+DEFAULT 'dyj02159@naver.com' NULL;
+
+ALTER TABLE lol
+DROP COLUMN email;
+
+ALTER TABLE lol
+CHANGE COLUMN email eemail VARCHAR(20) NULL;
+
+ALTER TABLE lol
+DROP PRIMARY KEY;

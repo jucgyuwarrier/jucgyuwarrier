@@ -1,0 +1,1 @@
+SELECT userid AS '사용자 아이디', AVG(amount) AS '평균 구매 개수' FROM buytbl GROUP BY userid;

@@ -1,0 +1,1 @@
+select name from t_member where id = 'ljg'

@@ -1,0 +1,1 @@
+SELECT groupname, SUM(price * amount) AS '비용' FROM buytbl GROUP BY groupname WITH ROLLUP;
